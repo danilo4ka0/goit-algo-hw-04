@@ -28,7 +28,7 @@ def get_cats_info(path):
         return None
 
 # Приклад використання функції
-cats_info = get_cats_info(r"C:\\Users\\demo\\Desktop\\my_r\\file.txt_2.txt")
+cats_info = get_cats_info("file2.txt")
 
 if cats_info is not None:
     for cat in cats_info:
